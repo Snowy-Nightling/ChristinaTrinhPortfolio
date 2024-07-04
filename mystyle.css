@@ -1,0 +1,82 @@
+body {
+
+text-align:center;
+
+background-image: url("https://slidescorner.com/wp-content/uploads/2024/02/Aesthetic-Pastel-Cute-PowerPoint-Background-Pink-Purple-Organic-Shapes-by-SlidesCorner.com_.jpg");	 	
+	
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1, p, li, ul {
+    color: #37000A;
+  }
+
+h1{
+text-decoration-line: underline;
+}
+
+.navi{
+  display: flex;
+  justify-content: center;
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 1000px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #C9CFE2;
+}
+
+.active {
+  background-color: #8897C9;
+}
+
+
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #EECFD0;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
