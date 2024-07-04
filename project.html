@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+<link rel="stylesheet" href="mystyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<style>
+
+.gallery{
+  display: flex;
+  justify-content: center;
+}
+
+
+.gallery {
+  --s: 300px; /* control the size */
+  --g: 8px;   /* control the gap */
+  
+  display: grid;
+  grid: auto-flow var(--s)/repeat(2,var(--s));
+  gap: var(--g);
+}
+
+.gallery > img {
+  width: 100%; 
+  aspect-ratio: 1;
+  cursor: pointer;
+  z-index: 0;
+  transition: .25s,z-index 0s .25s;
+}
+.gallery > img:hover {
+  width: calc(200% + var(--g));
+  filter: grayscale(0);
+  z-index: 1;
+  --_c: 50%;
+  transition: .4s,z-index 0s;
+}
+.gallery > img:nth-child(1){
+  clip-path: circle(var(--_c,55% at 70% 70%));
+  place-self: start;
+}
+.gallery > img:nth-child(2){
+  clip-path: circle(var(--_c,55% at 30% 70%));
+  place-self: start end;
+}
+.gallery > img:nth-child(3){
+  clip-path: circle(var(--_c,55% at 70% 30%));
+  place-self: end start;
+}
+.gallery > img:nth-child(4){
+  clip-path: circle(var(--_c,55% at 30% 30%));
+  place-self: end;
+}
+
+</style>
+
+<body>
+<img src = "https://cdn.pixabay.com/photo/2023/04/09/19/43/flowers-7912130_960_720.png">
+
+<div class = "navi">
+  <ul>
+  <li><a href="file:///C:/Users/16477/OneDrive/Documents/SCHOOL%20FILES/2024/Summer%202024/itec%203020/ChristinaTrinhPortfolio.html#Projects">Home</a></li>
+
+  <li><a href="file:///C:/Users/16477/OneDrive/Documents/SCHOOL%20FILES/2024/Summer%202024/itec%203020/About%20Me.html#news">About Me</a></li>
+
+  <li><a class="active" href="file:///C:/Users/16477/OneDrive/Documents/SCHOOL%20FILES/2024/Summer%202024/itec%203020/project.html">Projects</a></li>
+
+  <li><a href="file:///C:/Users/16477/OneDrive/Documents/SCHOOL%20FILES/2024/Summer%202024/itec%203020/Blog.html">Blog</a></li>
+
+  <li><a href="file:///C:/Users/16477/OneDrive/Documents/SCHOOL%20FILES/2024/Summer%202024/itec%203020/Contact.html">Contact</a></li>
+
+  </ul>
+</div>
+
+
+<h1>Projects</h1>
+<img src = "">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+  <img src="https://static.wixstatic.com/media/0cb4d7_7c5c1f1a833147c4914c42c9712b691b~mv2.jpg/v1/fill/w_927,h_695,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0cb4d7_7c5c1f1a833147c4914c42c9712b691b~mv2.jpg" alt="scenic acrylic painting">
+
+  <img src="https://snowy-nightling.carrd.co/assets/images/gallery01/e670f7ea.jpg?v=779e4501" alt="Enna Auloutte digital fanart">
+
+  <img src="https://snowy-nightling.carrd.co/assets/images/gallery01/e638a767.jpg?v=779e4501" alt="Tomoyo digital fanart">
+
+  <img src="https://static.wixstatic.com/media/0cb4d7_294f5569224b460c9b1fd8cb2709c764~mv2.jpg/v1/fill/w_515,h_686,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0cb4d7_294f5569224b460c9b1fd8cb2709c764~mv2.jpg" alt="Night at Chicago">
+</div>
+
+<p>You can also visit my other websites.</p>
+<a href="https://chisastellion.wixsite.com/mysite" id="wixlogo">Wix Portfolio</a>
+<p> </p>
+<a href="https://snowy-nightling.carrd.co/" id="carrdlogo">Carrd Portfolio</a>
+
+<img src ="">
+
+<footer tabindex="-1">
+<a href="https://www.instagram.com/nightling.n.cherry/?next=%2Fhanacues%2F" class="fa fa-instagram"></a>
+<h6>@2024 by Christina Trinh</h6>
+</footer>
+
+</body>
+</html>
