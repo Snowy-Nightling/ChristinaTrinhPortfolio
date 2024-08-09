@@ -92,6 +92,14 @@ li a:hover:not(.active) {
     opacity: 0.7;
 }
 
+.dark-mode {
+background-image: url("https://static.wixstatic.com/media/0cb4d7_6e1a97bd8fe84610a91d0bbc801d0db2~mv2.jpg/v1/fill/w_1236,h_695,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0cb4d7_6e1a97bd8fe84610a91d0bbc801d0db2~mv2.jpg");
+
+h2, h6, p, li, ul {
+    color: white;
+  }
+
+}
 
 </style>
 
@@ -99,6 +107,21 @@ li a:hover:not(.active) {
 
 <img src = "https://cdn.pixabay.com/photo/2023/04/09/19/43/flowers-7912130_960_720.png">
 
+<p>  </p>
+
+<!-- dark/light mode button -->
+<button onclick="myFunction()">Toggle dark/light mode</button>
+
+<p>  </p>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+	
 <div class="head">
   <h1>Welcome my Portfolio Page</h1>
 </div>
@@ -124,6 +147,7 @@ li a:hover:not(.active) {
 
 <img src = "https://i.pinimg.com/originals/3e/e1/d1/3ee1d196a1548df00e138154961a4be5.gif">
 
+<!-- footer with instagram button link-->
 <footer tabindex="-1">
 <a href="https://www.instagram.com/nightling.n.cherry/?next=%2Fhanacues%2F" class="fa fa-instagram"></a>
 <h6>@2024 by Christina Trinh</h6>
