@@ -46,6 +46,21 @@ input[type=submit]:hover {
 <body>
 <img src = "https://cdn.pixabay.com/photo/2023/04/09/19/43/flowers-7912130_960_720.png">
 
+<p>  </p>
+<!-- dark/light mode button -->
+<button onclick="myFunction()">Toggle dark/light mode</button>
+<p>  </p>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+	
+<!-- navigation bar
+-->
 <div class = "navi">
   <ul>
 	<li><a href="./index.html">Home</a></li>
@@ -65,7 +80,7 @@ input[type=submit]:hover {
 <img src = "">
 
 <h2>Please fill out the form</h2>
-
+<!-- form with entries-->
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">Name</label>
@@ -87,6 +102,7 @@ input[type=submit]:hover {
 
 <p>You can also contact me on my socials.</p>
 
+<!-- footer with instagram button link-->
 <footer tabindex="-1">
 <a href="https://www.instagram.com/nightling.n.cherry/?next=%2Fhanacues%2F" class="fa fa-instagram"></a>
 <h6>@2024 by Christina Trinh</h6>
