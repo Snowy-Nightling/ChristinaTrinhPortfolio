@@ -1,0 +1,17 @@
+{
+    "posts":[
+        {
+            "id":1,
+            "title":"How I  implement the light/dark mode switcher",
+            "body":"Post description: Since my background was based on a image from the internet, I made a dark mode version and post it online. Then I used the dark mode image is be the background for the night mode of the website. I also made all fonts white when in dark mode. All of this is done on the style css sheet. Then I implement a myfunction within a script on each page to make a button that would the mode of the each page when you lick on it. ",
+            "likes":30
+        },
+
+        {
+            "id":2,
+            "title":"How I made the dynamic blog section ",
+            "body":"Post description: ",
+            "likes":20
+        },
+            ]
+}
