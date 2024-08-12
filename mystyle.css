@@ -15,26 +15,26 @@ h1, p, li, ul {
   }
 
 h1{
-text-decoration-line: underline;
+text-decoration-line: bold;
 }
 
 .navi{
   display: flex;
   justify-content: center;
 
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  width: 1000px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: center;
-}
+     ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     width: 1000px;
+     position: -webkit-sticky; /* Safari */
+     position: sticky;
+     top: 0;
+     display: flex;
+     justify-content: center;
+        }
 
 li {
   float: left;
@@ -55,11 +55,7 @@ li a:hover {
 .active {
   background-color: #8897C9;
 }
-
-
-}
-
-
+    }
 
 .fa {
   padding: 10px;
@@ -80,11 +76,51 @@ li a:hover {
     opacity: 0.7;
 }
 
+
+
+.blogs{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(300px,1 fr));
+gap: 1.5em;
+padding: 16px;
+}
+
+
+.blog{
+padding: 0.5em;
+border: 2px solid black;
+border-radius: 5px;
+padding: 5px;
+display: grid;
+gap: 0.5em;}
+
+.blog:hover{
+border: 2px solid #8897C9;
+opacity: 0.8;
+}
+
+.blog p{
+width: 100%;
+wite-space: nowrap:
+overflow: hidden;
+text-overflow:ellipsis;
+}
+
 .dark-mode {
 background-image: url("https://static.wixstatic.com/media/0cb4d7_6e1a97bd8fe84610a91d0bbc801d0db2~mv2.jpg/v1/fill/w_1236,h_695,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0cb4d7_6e1a97bd8fe84610a91d0bbc801d0db2~mv2.jpg");
 
 h1, h2, h6, p, li, ul, a {
     color: white;
   }
+
+.blog{
+border: solid white;
+}
+
+.blog:hover{
+border: 2px solid pink;
+opacity: 0.8;
+}
+
 }
 
